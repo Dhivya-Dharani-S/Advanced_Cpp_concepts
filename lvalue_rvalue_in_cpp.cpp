@@ -11,3 +11,6 @@ const int &sum1=400;// if we want to assign rvalue to lvalue reference it is not
 cout<<sum1;// it will print 400
     return 0;
 }
+
+/* Since it is an const we can't able to modify it ..For that purpose c++ introduced Rvaluereference
+IN that Rvalue reference we can able to modify it*/
