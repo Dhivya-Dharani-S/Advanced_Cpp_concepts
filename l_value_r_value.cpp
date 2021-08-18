@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int a=10; //a --> lvalue   10-->rvalue
-    int &b=a;  // assigning lvalue to the lvalue reference b-->possible
+    int &b=a;  // assigning lvalue to the lvalue reference b-->possible                     
     /* int &b=300 --> not possible ; REASON:- trying to assign rvalue to lvalue reference which is not possible results in an error */
     const int &d= 500;// to overcome above condition we can use const (assigning rvalue to lvalue reference)
     int &&c=400;
